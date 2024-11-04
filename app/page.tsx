@@ -3,10 +3,10 @@ import React, { useState, useEffect } from 'react';
 import { Card } from '@/components/ui/card';
 import { LineChart, Line, XAxis, YAxis, Tooltip, ResponsiveContainer } from 'recharts';
 import { 
-  Wallet, CreditCard, Send, Repeat, Plus, ChevronRight, ArrowRight,
+  Wallet, Send, Repeat, ChevronRight,
   Signal, Battery, Wifi, ArrowUpRight, ArrowDownRight, Bell,
-  LineChart as ChartIcon, CircleDollarSign, Shapes, Lock, Eye, EyeOff,
-  Gift, Zap, Gem, PieChart, Settings, Menu
+  LineChart as ChartIcon, CircleDollarSign,
+  Gift, Zap, Settings, Menu
 } from 'lucide-react';
 
 const AdvancedFintechSimulator = () => {
