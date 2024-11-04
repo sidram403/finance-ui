@@ -12,7 +12,7 @@ import {
 const AdvancedFintechSimulator = () => {
   const [selectedTab, setSelectedTab] = useState('home');
   const [animateBackground, setAnimateBackground] = useState(0);
-  const [showBalance, setShowBalance] = useState(true);
+  // const [showBalance, setShowBalance] = useState(true);
   const [selectedCard, setSelectedCard] = useState(0);
   const [showCardDetails, setShowCardDetails] = useState(false);
 
